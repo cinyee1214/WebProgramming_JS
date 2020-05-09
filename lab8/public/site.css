@@ -1,0 +1,105 @@
+* {
+    background-color: rgba(255, 255, 255, 0.904);
+}
+
+#Introduction {
+    color: rgb(255, 166, 0);
+    font-weight: normal;
+}
+
+.result {
+    line-height: 2;
+}
+
+h1 {
+    color: salmon;
+    margin-bottom: 5px;
+}
+
+h2 {
+    color: purple;
+    margin-bottom: 5px;
+}
+
+html,
+body {
+    font-size: 15pt;
+}
+
+body {
+    font-family: Georgia, "Times New Roman", Times;
+}
+
+.result {
+    max-width: 85%;
+    margin: auto;
+}
+
+header {
+    border-bottom: 1px solid #afafaf;
+}
+
+h1 {
+    font-size: 2rem;
+    text-decoration: underline;
+}
+
+h2 {
+    font-size: 1.5rem;
+    text-decoration: underline;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 2;
+}
+
+.new-post-form {
+    max-width: 200px;
+}
+
+.new-post-form .full-width-input {
+    display: block;
+    min-height: 3em;
+    margin: 10px 0;
+    width: 100%;
+}
+
+label {
+    font-weight: bold;
+}
+
+.next-link {
+    color: #2c60af;
+}
+
+.next-link:visited {
+    font-style: italic;
+}
+
+.next-link:hover {
+    font-style: normal;
+    font-weight: 700;
+}
+
+.next-link:active {
+    color: #e5ff00;
+}
+
+.success {
+    color: #28a745;
+}
+
+.failure {
+    color: #dc3545;
+}
+
+.error {
+    font-weight: normal;
+    color: salmon;
+}
+
+.label {
+    color: pink;
+    font-size: 18pt;
+}

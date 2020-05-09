@@ -1,0 +1,27 @@
+<article>
+    <div>
+        <h2>Welcome to the Login Page!</h2>
+    </div>
+    <div>
+        <form action="/login" method="POST" id = "login-form">
+            <div>
+                <label>Username</label>
+                <input type="text" name = "username" placeholder="Username">
+            </div>
+            <div >
+                <label>Password</label>
+                <input type="password" name = "password" placeholder="Password">
+            </div>
+            <div>
+                <button type="submit">Sign in</button>
+            </div>
+        </form>
+    </div> 
+    <div>
+        {{#if Error}}
+        <p>
+            {{error}}
+        </p>
+        {{/if}}
+    </div>
+</article>

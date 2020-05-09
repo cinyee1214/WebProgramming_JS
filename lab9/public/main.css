@@ -1,0 +1,96 @@
+body {
+    background: #fefefe;
+    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+    font-size: 15pt;
+}
+
+main {
+    max-width: 75%;
+    margin: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #333;
+    margin-bottom: 5px;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 2;
+}
+
+.is-palindrome {
+    color: #0000FF;
+}
+
+.not-palindrome {
+    color: #FF0000;
+}
+
+.header {
+    text-align: center;
+    padding: 70px 30px 70px 30px;
+    margin: auto;
+    background: rgb(186, 240, 228);
+    color: floralwhite;
+}
+
+.footer {
+    text-align: center;
+    background-color: rgb(186, 240, 228);
+    margin: auto;
+    padding: 20px 0px 20px 0px;
+}
+
+#Introduction {
+    text-align: center;
+    color: rgb(31, 199, 241);
+    font-weight: normal;
+}
+
+.post-form {
+    text-align: center;
+}
+
+.submit {
+    width: 75%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.submit:hover {
+    background-color: #45a049;
+}
+
+.form-group {
+    border-radius: 4px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.full-width-input:visited {
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.full-width-input {
+    display: block;
+    min-height: 3em;
+    margin: 10px 0;
+    width: 100%;
+}
+
+#error-container {
+    color: #FF0000;
+}

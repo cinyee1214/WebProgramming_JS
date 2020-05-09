@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palindrome Checker</title>
+    <link rel="stylesheet" href="public/main.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <h1>Palindrome Checker</h1>
+        </div>
+    </header>
+
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <main>
+        <div>
+            <div>
+                <h2 id="Introduction">Welcome to the Palindrome Checker!</h2>
+                <p>A palindrome is a phrase that is spelled the same way, backwards and forwards (ignoring spacing and punctuation; only alphanumeric characters matter).
+                </p>
+            </div>
+            <div>
+                <p>For example, the following phrases are palindromes:</p>
+                <ul>
+                    <li>Madam</li>
+                    <li>He did, eh?</li>
+                    <li>Go hang a salami, I’m a lasagna hog.</li>
+                </ul>
+            </div>
+            <div>
+                <form id="static-form" method="POST" class="post-form">
+                    <div class="form-group">
+                        <label for="inputText" class="label">Have a try!</label>
+                        <div>
+                            <textarea class="full-width-input" id="inputText" name="phrase" placeholder="Enter your text" rows="2"></textarea>
+                        </div>
+                    </div>
+                    <div class="form-group" id="error-container">
+                        <div class="alert alert-danger text-goes-here">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="submit">Check!</button>
+                    </div>
+                </form>
+            </div>
+            <div>
+                <ol id="attempts"></ol>
+            </div>
+        </div>
+    </main>
+
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <footer class="footer ">
+        <div>
+            <h5>Author Name: Xinyi Zhao</h5>
+        </div>
+        <div>
+            <h5>CWID: 10451738</h5>
+        </div>
+        <div>
+            <h5>Major: Computer Science</h5>
+        </div>
+    </footer>
+
+    <script src="public/script.js "></script>
+</body>
+
+</html>

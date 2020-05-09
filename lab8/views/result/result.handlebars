@@ -1,0 +1,14 @@
+<article class="result">
+    
+        <h2 id="Introduction">Welcome to the Result page!</h2>
+        
+        {{#if isPalindrome}}
+        <p class="success">{{data}}</p>
+        <p>The input string is a palindrome.</p>
+        {{else}}
+        <p class="failure">{{data}}</p>
+        <p>The input string is not a palindrome.</p>
+        {{/if}}
+
+    <a href="/" class="next-link">Try another palindrome!</a>
+</article>
